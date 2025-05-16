@@ -1,4 +1,4 @@
-# Project-Ex4
+PojectFlix
 ## Description
 
 Welcome to our ProjectFlix! 
