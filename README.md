@@ -1,4 +1,4 @@
-PojectFlix
+#ProjectFlix
 ## Description
 
 Welcome to our ProjectFlix! 
