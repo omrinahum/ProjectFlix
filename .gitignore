@@ -15,3 +15,22 @@ package.json
 /client/node_modules
 .DS_Store
 .codegpt
+
+# Build directories and artifacts
+/build
+
+# CMake generated files
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+CMakeFiles/
+_deps/
+
+# Docker volumes and data
+data/SaveData
+
+# Environment files
+.env
+.env.local
+.env.production
