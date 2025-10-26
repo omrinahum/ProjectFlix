@@ -26,13 +26,13 @@ void TCPServer::start() {
     }
 
     // Start listening
-    if (listen(serverSocket, 5) < 0) {
+    if (listen(serverSocket, 15) < 0) {
         close(serverSocket);
         throw std::runtime_error("Listen failed");
     }
 
-    // Create ThreadPoolManager with 4 threads
-    ThreadPoolManager threadManager(4);
+    // Create ThreadPoolManager with 5 threads
+    ThreadPoolManager threadManager(5);
 
     // Pass the thread manager to acceptClients
     acceptClients(serverSocket, &threadManager);
