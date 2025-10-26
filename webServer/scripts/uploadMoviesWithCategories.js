@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 const API_URL = 'http://localhost:3000/api';
-const ADMIN_EMAIL = "test@example.com";db.users.updateOne({ email: "test@example.com" }, { $set: { role: "admin" } })
-const ADMIN_PASSWORD = "111111"; 
+const ADMIN_EMAIL = "omri@example.com";
+const ADMIN_PASSWORD = "15981597"; 
 
 // Categories to create
 const categoriesToCreate = [
